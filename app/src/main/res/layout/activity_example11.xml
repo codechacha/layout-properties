@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.codestudio.myapplication.MainActivity">
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#e0e0e0">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView01"
+            android:layout_gravity="left"
+            android:background="#80cbc4"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#a1887f">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView02"
+            android:layout_gravity="center_horizontal"
+            android:background="#f8bbd0"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#e1bee7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView03"
+            android:layout_gravity="right"
+            android:background="#ff8a65"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#bbdefb">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView04"
+            android:layout_gravity="center"
+            android:background="#81c784"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#b2dfdb">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView05"
+            android:layout_gravity="center_vertical"
+            android:background="#f3e5f5"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#ffb74d">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView06"
+            android:layout_gravity="center_vertical|right"
+            android:background="#2196f3"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#bcaaa4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView07"
+            android:layout_gravity="bottom"
+            android:background="#ff7043"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#f48fb1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView08"
+            android:layout_gravity="bottom|right"
+            android:background="#7986cb"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#f0f4c3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView09"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#f48fb1"/>
+    </FrameLayout>
+
+</LinearLayout>
